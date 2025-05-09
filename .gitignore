@@ -1,0 +1,106 @@
+# ========================
+# Общие системные файлы
+# ========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+._*
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.apdisk
+
+# Временные файлы редакторов
+*~
+*.swp
+*.swo
+*.swn
+.idea/
+.vscode/
+*.suo
+*.user
+*.sublime-*
+
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+.Python
+.pytest_cache/
+venv/
+.env/
+.venv/
+env/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ========================
+# Java
+# ========================
+# Скомпилированные классы
+*.class
+
+# Артефакты сборки
+target/
+build/
+*.jar
+*.war
+*.ear
+*.nar
+*.iml
+
+# Логи
+hs_err_pid*
+
+# ========================
+# C/C++
+# ========================
+# Объектные файлы и бинарники
+*.o
+*.a
+*.so
+*.dylib
+*.out
+*.exe  # На всякий случай (если кроссплатформенная разработка)
+
+# Директории сборки
+build/
+Debug/
+Release/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+*.cmake
+
+# Отладочные символы (особенно актуально для macOS)
+*.dSYM/
+
+# ========================
+# Дополнительно
+# ========================
+# Логи и временные файлы
+*.log
+*.tmp
+*.bak
+
+# Файлы окружения
+.env.local
+.env.development
+.env.production
+
+# Тестовые данные
+/test_results/
+/coverage/
+
+# Пакетные менеджеры
+__pypackages__/
